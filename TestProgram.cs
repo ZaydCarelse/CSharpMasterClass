@@ -6,14 +6,16 @@ namespace Test_Application
     {
         static void Main(string[] args)
         {
-            string myString = "156";
-            string mySecondString = "13";
+            string myString;
+            
+            Console.WriteLine("Please enter your name and press enter");
+            myString = Console.ReadLine();
+            
+            Console.WriteLine(myString.ToUpper());
+            Console.WriteLine(myString.ToLower());
+            Console.WriteLine(myString.Trim());
+            Console.WriteLine(myString.Substring(6));
 
-            int num1 = Int32.Parse(myString);
-            int num2 = Int32.Parse(mySecondString);
-
-            int result = num1 + num2;
-            Console.WriteLine("The result of the addition is : " + result);
         }
     }
 }
