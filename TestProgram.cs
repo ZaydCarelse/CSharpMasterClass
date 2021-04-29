@@ -12,8 +12,10 @@ namespace Test_Application
 
             string message = "This is a string to test the program with.";
 
+            string messagePlus = "This is another message.";
+
             Console.WriteLine("The sum of " + num1 + " and " + num2 +" is " + sum);
-            Console.WriteLine(message.ToUpper());
+            Console.WriteLine(message.ToUpper() + " " + messagePlus);
         }
     }
 }
