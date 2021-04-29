@@ -15,7 +15,9 @@
 ## Chapter 2:
 
 - Conversion: Explicit conversion (casting), Implicit Conversion, Type Conversion (__.ToStrin()__)
-- Parsing: Int32.Parse().
+- Parsing: Int32.Parse()
+- More String methods: SubString(int32), Trim(), IndexOf(string), IsNullOrWhiteSpace
+
 
 
 
