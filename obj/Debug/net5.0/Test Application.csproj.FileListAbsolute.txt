@@ -1,0 +1,16 @@
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.csprojAssemblyReference.cache
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.AssemblyInfoInputs.cache
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.AssemblyInfo.cs
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.csproj.CoreCompileInputs.cache
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\Test Application.exe
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\Test Application.deps.json
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\Test Application.runtimeconfig.json
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\Test Application.runtimeconfig.dev.json
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\Test Application.dll
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\ref\Test Application.dll
+C:\Users\zaydc\projects\Test Application\bin\Debug\net5.0\Test Application.pdb
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.dll
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\ref\Test Application.dll
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.pdb
+C:\Users\zaydc\projects\Test Application\obj\Debug\net5.0\Test Application.genruntimeconfig.cache
