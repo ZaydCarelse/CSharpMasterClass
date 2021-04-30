@@ -28,7 +28,10 @@
 
 - __If__ and __Else__ and __Else If__ statements
 - TryParse (int, float, double)
-- Nested if statements 
+- Nested if statements
+- Switch Statements
+- Enhanced If Statements (__Ternary Operator__)
+ 
 
 
 
