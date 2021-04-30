@@ -18,6 +18,16 @@ namespace Test_Application
         public static void GreetFriend(string name)
         {
             Console.WriteLine("Hi " + name + ", my friend!");
+
+            try
+            {
+
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine(e);
+                throw;
+            }   
         }
         
     }

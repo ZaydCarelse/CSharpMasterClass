@@ -22,6 +22,12 @@
 
 - Access Specifier, Return type, Method name, Parameter List, Method Body __(Method Syntax)__
 - Void Methods, Methods with return value and Parameters
+- Throw/Catch/Finally
+
+## Chapter 4: (Making Decisions)
+
+-
+
 
 
 
