@@ -4,53 +4,57 @@ namespace Test_Application
 {
     class TestProgram
     {
-        public static int temperature = 20;
+        public static bool userIsRegistered = false;
+        public static string userName;
+        public static string passWord;
         
         static void Main(string[] args)
         {
-            TakeTemperature();
-            GiveAdvice();
-        }
-
-        /// <summary>
-        /// This method asks the user for the current temperature.
-        /// </summary>
-        /// <returns> Temperature </returns>
-        public static void TakeTemperature()
-        {
-            Console.Write("What is the current temperature? ");
-            string tempInput = Console.ReadLine();
-            
-            try //Tests to see if the input is a valid number
+            RegisterUser();
+            if (userIsRegistered)
             {
-                temperature = int.Parse(tempInput);
-            }
-            catch (FormatException) // Exits with an error message if the incorrect format is used.
-            {
-                Console.WriteLine("Please use only whole numbers. No special characters or letters allowed.");
-                Console.WriteLine("The default temperature is: " + temperature);
-            }
-            finally
-            {
-                Console.WriteLine("Giving advice based on entered temperature...");
+                Login();
             }
         }
-
+        
         /// <summary>
-        /// Tells the user what to wear based on the temperature input
+        /// Registers the user, if not registered
         /// </summary>
-        public static void GiveAdvice()
+        public static void RegisterUser()
         {
-            if (temperature > 20)
+            Console.WriteLine("--- Welcome to the User Registration Portal ---");
+            Console.Write("What is your username: ");
+            userName = Console.ReadLine();
+            Console.Write("Great! Please enter your password: ");
+            passWord = Console.ReadLine();
+            Console.WriteLine("Congratulations! You are successfully registered.");
+            userIsRegistered = true;
+        }
+        
+        /// <summary>
+        ///  Allows a registered user to login
+        /// </summary>
+        public static void Login()
+        {
+            Console.WriteLine("Please Login to continue...");
+            Console.Write("Username: ");
+            string userNameInput = Console.ReadLine();
+            if (userNameInput == userName)
             {
-                Console.WriteLine("What a lovely day! You should be able to wear summer wear.");
-            } else if (temperature < 5)
-            {
-                Console.WriteLine("Yikes! You should probably wear winter clothing.");
+                Console.Write("Username is correct. Please enter your password: ");
+                string passWordInput = Console.ReadLine();
+                if (passWordInput == passWord)
+                {
+                    Console.WriteLine("Login successful!");
+                }
+                else
+                {
+                    Console.WriteLine("That password is incorrect.");
+                }
             }
             else
             {
-                    Console.WriteLine("It's not too hot and not too cold. Put a jacket in your backpack.");
+                Console.WriteLine("That username is not registered.");
             }
         }
     }

@@ -26,7 +26,9 @@
 
 ## Chapter 4: (Making Decisions)
 
-- __If__ and __Else__ and __Else If__ statements, 
+- __If__ and __Else__ and __Else If__ statements
+- TryParse (int, float, double)
+- Nested if statements 
 
 
 
