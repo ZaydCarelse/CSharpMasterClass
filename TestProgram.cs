@@ -6,28 +6,19 @@ namespace Test_Application
     {
         static void Main(string[] args)
         {
-            string myString;
-            string searchChar;
+            string friend1 = "Frank";
+            string friend2 = "George";
+            string friend3 = "Mark";
             
-            Console.Write("Enter string here: ");
-            myString = Console.ReadLine();
-            
-            Console.Write("Enter the character to search for here: ");
-            searchChar = Console.ReadLine();
-            
-            Console.WriteLine(myString.IndexOf(searchChar));
-
-            string firstName;
-            string lastName;
-            
-            Console.Write("Please enter your first name: ");
-            firstName = Console.ReadLine();
-            
-            Console.Write("Please enter your last name: ");
-            lastName = Console.ReadLine();
-
-            string fullName = string.Concat(" ",firstName, lastName, " ");
-            Console.WriteLine("Your full name is:" + fullName);
+            GreetFriend(friend1);
+            GreetFriend(friend2);
+            GreetFriend(friend3);
         }
+
+        public static void GreetFriend(string name)
+        {
+            Console.WriteLine("Hi " + name + ", my friend!");
+        }
+        
     }
 }

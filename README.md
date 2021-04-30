@@ -18,6 +18,11 @@
 - Parsing: Int32.Parse()
 - More String methods: SubString(int32), Trim(), IndexOf(string), IsNullOrWhiteSpace
 
+## Chapter 3: (Methods and Functions)
+
+- Access Specifier, Return type, Method name, Parameter List, Method Body __(Method Syntax)__
+- Void Methods, Methods with return value and Parameters
+
 
 
 
