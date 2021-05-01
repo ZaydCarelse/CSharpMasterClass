@@ -32,6 +32,12 @@
 - Switch Statements
 - Enhanced If Statements (__Ternary Operator__)
  
+## Chapter 5: (Loops)
+
+- __For__ Loops, __Do While__Loops, __While__Loops
+- __break__ and __continue__
+
+
 
 
 
