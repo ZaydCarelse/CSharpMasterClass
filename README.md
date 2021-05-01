@@ -37,7 +37,10 @@
 - __For__ Loops, __Do While__Loops, __While__Loops
 - __break__ and __continue__
 
+## Chapter 6: (Object Oriented Programming) __OOP__
 
+- __Classes__ and __Objects__
+- __Constructors__ and using multiple __Constructors__
 
 
 
