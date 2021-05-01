@@ -6,14 +6,10 @@ namespace Test_Application
     {
         static void Main(string[] args)
         {
-            Human zayd = new Human();
-            zayd.firstName = "Zayd";
-            zayd.lastName = "Carelse";
+            Human zayd = new Human("Zayd", "Carelse", "Brown", 36);
             zayd.IntroduceHuman();
 
-            Human denis = new Human();
-            denis.firstName = "Dennis";
-            denis.lastName = "The Menace";
+            Human denis = new Human("Dennis", "The Menace", "Blue", 12);
             denis.IntroduceHuman();
         }
     }
