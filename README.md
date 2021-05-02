@@ -43,6 +43,8 @@
 - __Constructors__ and using multiple __Constructors__
 - Default Constructor
 - Access Modifiers: __Public__, __Private__, __Internal__, __Protected__
+- Member fields (public and fields), Member Properties (get; set;), Member Methods
+- Deconstructors/Finalizers (eg. __~ClassName()__)
 
 
 
