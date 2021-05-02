@@ -19,11 +19,24 @@ namespace Test_Application
             this.age = age;
         }
         
+        // Default Constructor
+        public Human()
+        {
+            Console.WriteLine("This is used in case the parameters are not filled.");
+        }
+        
         // Member function
         public void IntroduceHuman()
         {
-            Console.WriteLine("Hi, I am " + firstName + " " + lastName + ".");
-            Console.WriteLine("I am " + age + " years old and have " + eyeColor + " eyes.");
+            if (firstName != null || lastName != null || eyeColor != null)
+            {
+                Console.WriteLine("Hi, I am " + firstName + " " + lastName + ".");
+                Console.WriteLine("I am " + age + " years old and have " + eyeColor + " eyes.");
+            }
+            else
+            {
+                Console.WriteLine("This Human object is empty.");
+            }
         }
     }
 }

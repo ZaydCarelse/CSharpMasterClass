@@ -6,11 +6,12 @@ namespace Test_Application
     {
         static void Main(string[] args)
         {
-            Human zayd = new Human("Zayd", "Carelse", "Brown", 36);
-            zayd.IntroduceHuman();
-
-            Human denis = new Human("Dennis", "The Menace", "Blue", 12);
-            denis.IntroduceHuman();
+            Box box = new Box();
+            box.height = 4;
+            box.width = 4;
+            box.length = 6;
+            
+            box.DisplayInfo();
         }
     }
 }
