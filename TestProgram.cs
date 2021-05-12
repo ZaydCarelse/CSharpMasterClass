@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Text;
+using System.IO;
 
 namespace Test_Application
 {
@@ -6,9 +9,10 @@ namespace Test_Application
     {
         static void Main(string[] args)
         {
-            Box box = new Box(4, 12, 6);
+            DateTime dateTime = new DateTime(2021, 5, 4);
 
-            box.DisplayInfo();
+            Console.WriteLine("The current date and time is : " + DateTime.Now);
         }
+
     }
 }

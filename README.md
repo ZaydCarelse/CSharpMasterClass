@@ -46,6 +46,26 @@
 - Member fields (public and fields), Member Properties (get; set;), Member Methods
 - Deconstructors/Finalizers (eg. __~ClassName()__)
 
+## Chapter 7: (Arrays and Lists)
+
+- Arrays, initializing Arrays, assigning values to an Array, getting values from an Array
+- Using the array.__Length__ property
+- __For each__ loops
+- Jagged Arrays
+- __params__ keyword, using __object[]__arrays,
+- Collections (Generic [using System.Collections.Generic] and Non-Generic[using System.Collections])
+- Non-Generic Collections: ArrayList (objects), __.Add__, __.Remove__, __.RemoveAt__, __Count__
+- Generic Collections: List<single type>(), __.Add__, __.Remove__, __.Clear__, usage of List.Count instead of .Length in Arrays
+- Hashtables - Keys and values
+
+## Chapter 8: (Debugging)
+
+- Locals and Autos
+- Debugging, Creating Copies of Lists and solving bugs
+- Debugging Call Stack, Throwing Errors and Defensive Programming
+
+
+
 
 
 
